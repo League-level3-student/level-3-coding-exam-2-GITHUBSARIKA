@@ -1,3 +1,5 @@
+package test;
+
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
@@ -33,22 +35,8 @@ public class Level3CodingExam {
 		assertEquals(WyateErpsNuggets, new ContestCalculator().calculateWinner(WyateErpsNuggets, ButchCassidaysNuggets));
 		
 	
-	class ContestCalculator() {
-		double calculateWinner(WyateErpsNuggets, ButchCassidaysNuggets) {
-			for (int i = 0; i < ButchCassidaysNuggets.size(); i++) {
-				
-			}
-			for (int j = 0; j < WyateErpsNuggets.size(); j++) {
-				
-			}
-			if(WyateErpsNuggets.get(i)>ButchCassidaysNuggets.get(i)) {
-				return WyateErpsNuggets;
-			}else {
-				 return ButchCassidaysNuggets;
-			}
-		}
 	
-		
+	}
 
 
 	/** 

@@ -2,17 +2,26 @@ package test;
 
 import java.util.ArrayList;
 
-public class ContestCalculator {
-	double calculateWinner(ArrayList<Double> WyateErpsNuggets, ArrayList<Double> ButchCassidaysNuggets) {
+public class ContestCalculator {    
+ArrayList<Double> calculateWinner(ArrayList<Double> WyateErpsNuggets, ArrayList<Double> ButchCassidaysNuggets) {
+	double sum=0;
+	double summ=0;
 		for (int i = 0; i < ButchCassidaysNuggets.size(); i++) {
+			sum+=ButchCassidaysNuggets.get(i);
 			
-		}
-		for (int j = 0; j < WyateErpsNuggets.size(); j++) {
+		}	
 			
+			for (int j = 0; j < WyateErpsNuggets.size(); j++) {
+				summ+=WyateErpsNuggets.get(j);
+		                                                                              
 		}
-		if(WyateErpsNuggets.get(i)>ButchCassidaysNuggets.get(i)) {
-			return WyateErpsNuggets;
+		if(sum>summ) {
+			return ButchCassidaysNuggets;
 		}else {
-			 return ButchCassidaysNuggets;
+			 return WyateErpsNuggets;
 		}
+		
+		
+		
+}
 }
